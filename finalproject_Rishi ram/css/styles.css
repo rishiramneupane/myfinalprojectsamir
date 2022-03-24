@@ -1,0 +1,44 @@
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+section{
+	padding: 30px 0;
+	margin: 20px 0;
+}
+#header{
+	background: greenyellow;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 50px;
+}
+#header h1{
+	color: #ffffff;
+
+}
+#navbar{
+	background: #dddddd;
+	width: 80%;
+
+}
+#navbar .nav-list {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+#navbar.nav.list li{
+ list-style-type: none;
+}
+#navbar.nav.list li{
+	text-decoration: none;
+}
+#intro p{
+	width: 80%;
+	margin: 0px auto;
+}
+#intro span{
+	color: #C51F8C;
+}
